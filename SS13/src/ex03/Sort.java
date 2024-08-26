@@ -14,6 +14,9 @@ public class Sort {
         List<Map.Entry<String, Integer>> entryList = new ArrayList<>(hashMap.entrySet());
         System.out.println(entryList);
 //        Collections.sort();
+        List<Integer> mapValues = new ArrayList<>(hashMap.values());
+        Collections.sort(mapValues);
+        System.out.println(mapValues);
     }
 
 }
